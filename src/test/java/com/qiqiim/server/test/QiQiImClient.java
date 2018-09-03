@@ -17,8 +17,8 @@ import io.netty.handler.timeout.IdleStateHandler;
 import java.util.Scanner;
 import java.util.UUID;
 
-import com.qiqiim.constant.Constants;
-import com.qiqiim.server.model.proto.MessageProto;
+import com.chat.constant.Constants;
+import com.chat.server.model.proto.MessageProto;
 import com.qiqiim.server.test.data.MessageData;
 
 public class QiQiImClient {

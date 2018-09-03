@@ -37,10 +37,10 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.qiqiim.constant.Constants;
-import com.qiqiim.server.model.proto.MessageBodyProto;
-import com.qiqiim.server.model.proto.MessageBodyProto.MessageBody;
-import com.qiqiim.server.model.proto.MessageProto;
+import com.chat.constant.Constants;
+import com.chat.server.model.proto.MessageBodyProto;
+import com.chat.server.model.proto.MessageProto;
+import com.chat.server.model.proto.MessageBodyProto.MessageBody;
 import com.qiqiim.server.test.data.MessageData;
 
 @Sharable

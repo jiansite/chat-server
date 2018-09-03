@@ -382,9 +382,9 @@
                 <version>2.1</version>
                 <configuration>
                     <port>8080</port>
-                    <path>/qiqiim-server</path>
+                    <path>/chat-server</path>
                     <uriEncoding>UTF-8</uriEncoding>
-                    <finalName>qiqiim-server</finalName>
+                    <finalName>chat-server</finalName>
                     <server>tomcat7</server>
                 </configuration>
             </plugin>
@@ -406,7 +406,7 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
-        <finalName>qiqiim-server</finalName>
+        <finalName>chat-server</finalName>
     </build>
 </project>
 

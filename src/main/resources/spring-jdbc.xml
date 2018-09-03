@@ -59,8 +59,8 @@
 	<bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut" scope="prototype">
 		<property name="patterns">
 			<list>
-				<value>com.qiqiim.webserver.controller.*</value>
-				<value>com.qiqiim.webserver.service.*</value>
+				<value>com.chat.webserver.controller.*</value>
+				<value>com.chat.webserver.service.*</value>
 			</list>
 		</property>
 	</bean>
@@ -81,7 +81,7 @@
 	</bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.qiqiim" />
+		<property name="basePackage" value="com.chat" />
 	</bean>
 	
 	

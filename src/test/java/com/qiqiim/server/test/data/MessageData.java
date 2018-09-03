@@ -4,10 +4,10 @@ import java.util.Date;
 
 import org.apache.commons.lang.time.DateFormatUtils;
 
-import com.qiqiim.constant.Constants;
-import com.qiqiim.server.model.proto.MessageBodyProto;
-import com.qiqiim.server.model.proto.MessageProto;
-import com.qiqiim.util.SystemInfo;
+import com.chat.constant.Constants;
+import com.chat.server.model.proto.MessageBodyProto;
+import com.chat.server.model.proto.MessageProto;
+import com.chat.util.SystemInfo;
 
 public class MessageData {
 
